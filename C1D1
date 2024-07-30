@@ -1,2 +1,183 @@
-Anwer1
-answer2
+2.To check a number amstrong
+Pseudo:
+function CheckAmstrong(num)
+  power =len(num)
+  temp = num
+  sum = 0
+  while(temp>0)
+    dig = temp % 10
+    sum = sum + dig**power
+    temp = temp/10
+  end
+if sum == num
+  return True
+else 
+  return False
+
+Pseudo: routine test
+function TestCheckAmstrong
+  Input num
+  Amstrong =  CheckAmstrong(num)
+  if True 
+    print " Amstrong number"
+ else 
+    print " Not Amstrong number"
+    
+3.To check a number prime
+function CheckPrime(num)
+  if num == 1
+    print " not prime"
+  elif num>1
+    for i in range 2 to num
+      if num % i == 0
+          print "not prime"
+          break
+  else :
+    print " prime number"
+
+pseudo: Routine Test
+function TestCheckPrime()
+Input = num
+check = CheckPrime(num)
+if True
+  print "not prime"
+else
+  print "prime
+
+7. To check a number perfect number
+function CheckPerfect(num)
+sum = 0
+for i in range 1 to num-1
+  if num % i == 0
+    sum = sum + i
+if sum == num
+  print "perfect number"
+else 
+print " not perfect number"
+
+17.To check number is odd or even
+Pseudo :
+function CheckOddOrEven(num)
+if num % 2 == 0
+  return Even
+else 
+  return Odd 
+
+pseudo: routine test
+function TestCheckOddOrEven()
+Input = num
+OddEven = CheckOddOrEven(num)
+if True
+ print "Even"
+else 
+  print "Odd"
+
+18. To check a year leap
+pseudo:
+function CheckLeap(year)
+if year % 4== 0
+  if year % 100 == 0
+    if year % 400 == 0
+        return True
+else 
+  return False
+Pseudo: routine test
+function TestlCheckLeap()
+Input = year
+Leap = CheckLeap(year)
+if True
+  print "Leap year"
+else 
+   print "Not a Leap year"
+
+21. To check a number perfect square or not
+pseudo:
+function CheckPerfectSquare(num)
+initiate i = 1
+while i*i <= num
+  if i*i == num
+    return True
+  i = i+1
+return False
+
+pseudo :routine test
+function TestCheckPerfectSquare()
+Input = num
+PerfSqure = CheckPerfectSquare(num)
+if True 
+    print " Perfect square" 
+else
+    print "Perfect square"
+
+5. Reverse the number
+Pseudo:
+function ReverseNumber(num)
+revnum =0
+while num>0
+     dig = num % 0
+     revnum = revnum*10 + dig
+     num = num/10
+return revnum
+
+pseudo: routine test
+function TestReverseNumber()
+Input = num
+Reverse = ReverseNumber(num)
+return Reverse
+
+6. Factorials of the number
+pseudo :
+function FindFactorial(num)
+result = 1
+for i in range 1 to num+1
+  result = result * i
+return result
+
+pseudo: routine test
+function TestFindFactorial()
+Input = num
+Factorial = FindFactorial(num)
+return Factorial
+
+4. Fibonacci
+pseudo :
+function FibonacciSeries(num)
+  first = 0
+  second = 1
+  count = 0
+  while count < n
+    print first
+    temp = first
+    first = second
+    second = temp + second
+    count++
+end
+
+pseudo: routine test
+function TestFibonacciSeries()
+Input = num
+Series = FibonacciSeries(num)
+return Series
+
+22.To print prime numbers between in the limit
+pseudo :
+function PrintPrime(limit1,limit2)
+for n in range limit1 to limit2+1
+  if CheckPrime(n)
+    Print num
+function  CheckPrime(num)
+  if num <=1
+    return false
+  for i in range 2 to num
+      if num % i == 0
+        return false
+  return True
+
+pseudo: routine test
+function TestPrintPrime()
+Input = limit1
+Input = limit2
+Primenumbers = PrintPrime(limit1,limit2)
+Return Primenumbers
+
+
