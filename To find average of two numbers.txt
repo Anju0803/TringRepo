@@ -1,0 +1,12 @@
+To find average of two numbers:
+
+pseudo:
+	Input num1
+	Input num2
+	Sum = num1 + num2
+	Average = Sum/2
+	print Average
+ 
+pseudo: routine
+	function FindAverage(num1,num2)
+	Average = 

@@ -1,0 +1,12 @@
+To find square of a number
+
+Pseudo:
+	Function FindSquare(num)
+	Square = num*num
+	Return Square
+
+Pseudo: Routine test
+	Function TestFindSquare()
+	Input num
+	Square = Findsquare(num)
+	Return Square	
